@@ -12,13 +12,13 @@ Welcome to AssetRanger ("we," "our," or "us"). We respect your privacy and are c
 AssetRanger requests access to your device's camera solely for the purpose of scanning barcodes of assets for quick data entry. We do not capture, store, or transmit any images or video content from your camera to external servers.
 
 ### Location Information
-When you opt-in, we collect location data to tag where an asset was scanned, improving asset tracking accuracy. This information is stored locally on your device and within your organization's database. We do not track your location when the app is not in use.
+When you opt-in, we collect location data to tag where an asset was scanned, improving asset tracking accuracy. This information is stored locally on your device. We do not track your location when the app is not in use.
 
 ### User-Provided Information
 We collect information you voluntarily provide when using our app, such as:
 - Asset details (names, descriptions, categories)
-- User account information
-- Organization-specific data
+- User preferences
+- Default values for forms
 
 ## How We Use Your Information
 
@@ -29,11 +29,11 @@ We use the information we collect to:
 
 ## Data Storage and Security
 
-All data is primarily stored locally on your device. If you use cloud sync features, data is transmitted using secure protocols and stored in encrypted format. We implement appropriate security measures to protect your personal information from unauthorized access or disclosure.
+All data is stored locally on your device. We implement appropriate security measures to protect your personal information from unauthorized access or disclosure.
 
 ## Third-Party Services
 
-AssetRanger does not share your data with third-party services except as necessary to provide app functionality (such as cloud storage if enabled). We do not sell your data to advertisers or other third parties.
+AssetRanger does not share your data with third-party services. We do not sell your data to advertisers or other third parties.
 
 ## Your Rights
 
@@ -54,4 +54,4 @@ We may update this privacy policy from time to time. We will notify you of any c
 ## Contact Us
 
 If you have questions about this privacy policy or our practices, please contact us at:
-[Your Contact Email]
+caesiusbay@gmail.com
