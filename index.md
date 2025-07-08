@@ -55,3 +55,5 @@ We may update this privacy policy from time to time. We will notify you of any c
 
 If you have questions about this privacy policy or our practices, please contact us at:
 caesiusbay@gmail.com
+
+© 2025 AssetRanger. All rights reserved. This privacy policy is provided for informational purposes only.
