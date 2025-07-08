@@ -2,7 +2,7 @@
 
 This repository hosts the privacy policy for AssetRanger, a mobile asset management application.
 
-The privacy policy is publicly accessible at: https://[yourusername].github.io/asset-ranger-privacy
+The privacy policy is publicly accessible at: https://theianmay.github.io/asset-ranger-privacy
 
 ## Purpose
 
