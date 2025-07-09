@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+---
+
 # AssetRanger Privacy Policy
 
 **Last Updated: July 7, 2025**
@@ -57,3 +61,6 @@ If you have questions about this privacy policy or our practices, please contact
 caesiusbay@gmail.com
 
 © 2025 AssetRanger. All rights reserved. This privacy policy is provided for informational purposes only.
+
+[Home](index.md) | [Screenshots](screenshots.md) | [Architecture](architecture.md) | [Privacy](privacy.md)
+
