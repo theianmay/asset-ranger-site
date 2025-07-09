@@ -37,7 +37,7 @@ For Asset Ranger's foundation, I carefully selected a technology stack that bala
 
 - **React Native:** Chosen as the core framework for cross-platform capabilities  
 - **Expo:** Leveraged for accelerated development and simplified native feature integration  
-- **React Navigation:** Implemented a navigation system with native stack and bottom tabs for intuitive user flows  
+- **React Navigation:** Implemented a navigation system with native stack for intuitive user flows  
 - **SQLite:** Selected as a local database for offline-first operation and data persistence  
 - **Zustand:** Used as a lightweight state management solution for simplicity and performance  
 - **Jest:** Built comprehensive testing infrastructure to ensure quality and reliability  
