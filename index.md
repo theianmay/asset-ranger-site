@@ -18,4 +18,4 @@ Explore the site to see detailed screenshots, understand the app’s architectur
 If you have questions about this website, the privacy policy, or anything else, please contact us at:
 caesiusbay@gmail.com
 
-© 2025 AssetRanger. All rights reserved. This privacy policy is provided for informational purposes only.
+© 2025 AssetRanger. All rights reserved.
