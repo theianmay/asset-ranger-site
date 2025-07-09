@@ -1,17 +1,24 @@
-# AssetRanger Privacy Policy
+# AssetRanger Website
 
-This repository hosts the privacy policy for AssetRanger, a mobile asset management application.
+This repository hosts the official website for AssetRanger, a mobile asset management application. The website provides detailed screenshots, an in-depth overview of the app’s architecture, and the complete privacy policy.
 
-The privacy policy is publicly accessible at: https://theianmay.github.io/asset-ranger-privacy
+The site is publicly accessible at: https://theianmay.github.io/asset-ranger-site
+
+## Repository Structure
+
+- **index.md** — Home page with an introduction to AssetRanger  
+- **screenshots.md** — Gallery showcasing app screenshots  
+- **architecture.md** — Detailed explanation of the app’s architecture and design decisions  
+- **privacy.md** — Complete privacy policy document: https://theianmay.github.io/asset-ranger-site/privacy.html
 
 ## Purpose
 
-This privacy policy document explains how the AssetRanger application collects, uses, and protects user data, with specific attention to camera permissions and location data usage.
+This site serves as the central hub for users and stakeholders to learn about AssetRanger’s functionality, structure, and privacy practices.
 
-© 2025 AssetRanger. All rights reserved. This privacy policy is provided for informational purposes only.
+© 2025 AssetRanger. All rights reserved.
 
 ## Updates
 
-The policy will be updated as necessary to reflect changes in data practices or regulatory requirements.
+Content will be updated periodically to reflect new features, architectural changes, and privacy policy revisions.
 
-Last substantive update: July 7, 2025
+Last update: July 9, 2025
