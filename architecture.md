@@ -24,7 +24,7 @@ I built AssetRanger with these key capabilities in mind:
 
 ### Modular Design Philosophy
 
-I structured Asset Ranger with modularity as a core principle. By organizing the application into distinct, reusable components, I've created a codebase that's maintainable, scalable, and easy to extend:
+I structured AssetRanger with modularity as a core principle. By organizing the application into distinct, reusable components, I've created a codebase that's maintainable, scalable, and easy to extend:
 
 - **Screen Architecture:** I separated all major workflows into dedicated screens in `/src/screens`  
 - **Component Library:** I developed reusable UI components in `/src/components` that maintain consistent user experience throughout the app  
@@ -33,7 +33,7 @@ I structured Asset Ranger with modularity as a core principle. By organizing the
 
 ### Technology Stack Selection
 
-For Asset Ranger's foundation, I carefully selected a technology stack that balances performance, developer experience, and user experience:
+For AssetRanger's foundation, I carefully selected a technology stack that balances performance, developer experience, and user experience:
 
 - **React Native:** Chosen as the core framework for cross-platform capabilities  
 - **Expo:** Leveraged for accelerated development and simplified native feature integration  
@@ -44,7 +44,7 @@ For Asset Ranger's foundation, I carefully selected a technology stack that bala
 
 ### State Management Strategy
 
-I designed Asset Ranger's state management with a multi-layered approach:
+I designed AssetRanger's state management with a multi-layered approach:
 
 - **Global State:** Zustand manages app-wide data like counters and settings  
 - **Theme Context:** Dedicated context for appearance management  
@@ -62,7 +62,7 @@ My navigation architecture focuses on user-friendly workflows:
 
 ### Data Persistence & Communication
 
-I structured Asset Ranger primarily as an offline-first application:
+I structured AssetRanger primarily as an offline-first application:
 
 - Comprehensive SQLite schema for all inventory data  
 - Import/export functionality for data migration  
@@ -81,7 +81,7 @@ For resource handling, I implemented:
 
 ### Asynchronous Operation Handling
 
-I designed Asset Ranger to handle asynchronous workflows effectively:
+I designed AssetRanger to handle asynchronous workflows effectively:
 
 - Consistent async/await patterns throughout the codebase  
 - Database operations wrapped in Promise-based functions  
@@ -108,7 +108,7 @@ My quality assurance approach includes:
 
 ### Build & Deployment Pipeline
 
-I configured Asset Ranger's build system using:
+I configured AssetRanger's build system using:
 
 - Expo Application Services for streamlined building  
 - Metro bundler for optimized JavaScript packaging  
@@ -116,7 +116,7 @@ I configured Asset Ranger's build system using:
 
 ### Security Considerations
 
-I prioritized security in Asset Ranger by:
+I prioritized security in AssetRanger by:
 
 - Implementing local-only data storage for sensitive information  
 - Adding thorough input validation throughout the application  
