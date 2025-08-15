@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # AssetRanger Privacy Policy
 
-**Last Updated: July 7, 2025**
+**Last Updated: August 14, 2025**
 
 ## Introduction
 
@@ -20,20 +20,31 @@ When you opt-in, we collect location data to tag where an asset was scanned, imp
 
 ### User-Provided Information
 We collect information you voluntarily provide when using our app, such as:
-- Asset details (names, descriptions, categories)
-- User preferences
+- Asset details (names, descriptions, categories, barcodes)
+- User preferences and settings
 - Default values for forms
+- Digital signatures for approval workflows
+- Import/export data (CSV, JSON files)
+
+### Notification Permissions
+When you opt-in, we request notification permissions to send reminders about overdue items. These notifications are generated locally on your device and do not involve external servers.
+
+### Storage Access
+We request storage permissions to enable import and export of data files (CSV, JSON, PDF). This allows you to backup your data and share approval documents.
 
 ## How We Use Your Information
 
 We use the information we collect to:
-- Enable core functionality of the app (asset tracking, barcode scanning)
-- Improve and optimize the app's performance and features
-- Provide technical support
+- Enable core functionality (asset tracking, barcode scanning, check-in/check-out workflows)
+- Generate approval documents and reports
+- Provide overdue item notifications
+- Enable data import/export for backup and sharing
+- Maintain audit trails for compliance
+- Improve app performance and user experience
 
 ## Data Storage and Security
 
-All data is stored locally on your device. We implement appropriate security measures to protect your personal information from unauthorized access or disclosure.
+All data is stored locally on your device using SQLite database with appropriate security measures. We do not transmit your data to external servers. The app operates offline-first, ensuring your data remains under your control.
 
 ## Third-Party Services
 
@@ -42,10 +53,12 @@ AssetRanger does not share your data with third-party services. We do not sell y
 ## Your Rights
 
 You have the right to:
-- Access the personal data we hold about you
-- Request correction of your personal data
-- Request deletion of your data from our systems
-- Withdraw consent for location tracking
+- Access all data stored locally on your device
+- Edit or delete any asset information
+- Export your complete data set via CSV or JSON
+- Withdraw consent for location tracking at any time
+- Disable notifications in app settings
+- Uninstall the app to remove all local data
 
 ## Children's Privacy
 
@@ -63,4 +76,3 @@ caesiusbay@gmail.com
 © 2025 AssetRanger. All rights reserved. This privacy policy is provided for informational purposes only.
 
 [Home](index.md) | [Screenshots](screenshots.md) | [Architecture](architecture.md) | [Privacy](privacy.md)
-
