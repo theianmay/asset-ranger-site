@@ -10,7 +10,8 @@ Explore AssetRanger's intuitive interface through these screenshots showcasing k
 
 <img src="images/01.png" width="144"> <img src="images/02.png" width="144"> <img src="images/03.png" width="144"> <img src="images/04.png" width="144"> <img src="images/05.png" width="144">
 
-
+## Detailed screenshots coming soon...
+---
 ## Home Screen & Navigation
 <!-- Add home screenshot here -->
 *Main dashboard with navigation options and inventory overview*
