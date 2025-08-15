@@ -144,3 +144,5 @@ To ensure a smooth user experience, I implemented:
 Through this architecture, I've created an inventory management solution that combines technical excellence with an intuitive user experience, making AssetRanger a powerful yet approachable tool for equipment tracking and management.
 
 © 2025 AssetRanger. All rights reserved.
+
+[Home](index.md) | [Screenshots](screenshots.md) | [Architecture](architecture.md) | [Privacy](privacy.md)
