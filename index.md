@@ -6,6 +6,11 @@ title: Home
 
 AssetRanger is a comprehensive mobile asset management application that streamlines equipment tracking through intuitive check-in and check-out workflows.
 
+<img src="images/ar-lrg-icon.png" width="250">
+
+[<img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat&logo=app-store&logoColor=white">](https://apps.apple.com/us/app/assetranger/id6747605723?platform=iphone)
+[<img src="https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white">](https://play.google.com/)
+
 ## Key Features
 
 - **Barcode Scanning** - Quick asset identification with multi-scan batch processing
