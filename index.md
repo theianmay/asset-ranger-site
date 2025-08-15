@@ -4,18 +4,35 @@ title: Home
 
 # Welcome to AssetRanger
 
-AssetRanger is a mobile asset management application designed to simplify tracking and organizing your assets efficiently.
+AssetRanger is a comprehensive mobile asset management application that streamlines equipment tracking through intuitive check-in and check-out workflows.
 
-Explore the site to see detailed screenshots, understand the app’s architecture, and review the privacy policy.
+## Key Features
+
+- **Barcode Scanning** - Quick asset identification with multi-scan batch processing
+- **Offline-First Operation** - Works without internet connectivity using local SQLite database
+- **Location Tracking** - Optional GPS tagging for asset location history
+- **Digital Approvals** - PDF generation with signature capture for equipment transfers
+- **Data Import/Export** - CSV and JSON support with validation and round-trip compatibility
+- **Audit Trail** - Complete lifecycle tracking with barcode-based persistence
+- **Cross-Platform** - Native iOS and Android apps built with React Native and Expo
+
+## Built With Modern Technology
+
+AssetRanger leverages React Native 0.79.5, Expo 53.0.19, and SQLite for a robust, scalable architecture that prioritizes user experience and data integrity.
+
+## Explore the Documentation
+
+- **[Screenshots](screenshots.md)** - Visual tour of the application interface
+- **[Architecture](architecture.md)** - Detailed technical overview and design decisions
+- **[Privacy Policy](privacy.md)** - Complete data handling and privacy practices
 
 ---
 
 [Home](index.md) | [Screenshots](screenshots.md) | [Architecture](architecture.md) | [Privacy](privacy.md)
 
-
 ## Contact Us
 
-If you have questions about this website, the privacy policy, or anything else, please contact us at:
-caesiusbay@gmail.com
+For questions about AssetRanger, technical support, or partnership inquiries:
+**caesiusbay@gmail.com**
 
 © 2025 AssetRanger. All rights reserved.
