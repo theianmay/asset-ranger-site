@@ -8,8 +8,11 @@ title: Screenshots
 
 Explore AssetRanger's intuitive interface through these screenshots showcasing key features and workflows.
 
+<img src="images/01.png" width="144"> <img src="images/02.png" width="144"> <img src="images/03.png" width="144"> <img src="images/04.png" width="144"> <img src="images/05.png" width="144">
+
+
 ## Home Screen & Navigation
-<img src="images/01.png">
+<!-- Add home screenshot here -->
 *Main dashboard with navigation options and inventory overview*
 
 ## Item Management
