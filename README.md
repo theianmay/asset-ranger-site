@@ -1,24 +1,48 @@
 # AssetRanger Website
 
-This repository hosts the official website for AssetRanger, a mobile asset management application. The website provides detailed screenshots, an in-depth overview of the app’s architecture, and the complete privacy policy.
+This repository hosts the official website for AssetRanger, a comprehensive mobile asset management application. The website provides detailed feature overviews, technical architecture documentation, and complete privacy policy information.
 
 The site is publicly accessible at: https://theianmay.github.io/asset-ranger-site
 
 ## Repository Structure
 
-- **index.md** — Home page with an introduction to AssetRanger  
-- **screenshots.md** — Gallery showcasing app screenshots  
-- **architecture.md** — Detailed explanation of the app’s architecture and design decisions  
-- **privacy.md** — Complete privacy policy document: https://theianmay.github.io/asset-ranger-site/privacy.html
+- **index.md** — Home page featuring AssetRanger's key capabilities and technology overview
+- **screenshots.md** — Visual gallery showcasing the application interface (coming soon)
+- **architecture.md** — In-depth technical architecture and design philosophy documentation
+- **privacy.md** — Complete privacy policy covering data handling, permissions, and user rights
+
+## Key Features Documented
+
+The website comprehensively covers AssetRanger's capabilities including:
+
+- **Barcode Scanning** with multi-scan batch processing
+- **Offline-First Operation** using local SQLite database
+- **Location Tracking** with optional GPS integration
+- **Digital Approvals** featuring PDF generation and signature capture
+- **Data Import/Export** with CSV/JSON validation and round-trip compatibility
+- **Audit Trail** system with barcode-based persistence
+- **Cross-Platform** React Native and Expo implementation
+
+## Technical Documentation
+
+The architecture section provides detailed insights into:
+- Technology stack selection and rationale
+- State management strategy with multi-layered approach
+- Database design with SQLite v3 schema
+- Security considerations and performance optimizations
+- Testing strategy and build pipeline
 
 ## Purpose
 
-This site serves as the central hub for users and stakeholders to learn about AssetRanger’s functionality, structure, and privacy practices.
-
-© 2025 AssetRanger. All rights reserved.
+This site serves as the comprehensive resource for users, developers, and stakeholders to understand AssetRanger's functionality, technical implementation, and data practices.
 
 ## Updates
 
-Content will be updated periodically to reflect new features, architectural changes, and privacy policy revisions.
+Content is regularly updated to reflect new features, architectural improvements, and policy revisions.
 
-Last update: July 9, 2025
+**Last major update:** August 14, 2025
+- Enhanced privacy policy with current permissions and features
+- Updated technical architecture documentation
+- Improved home page with comprehensive feature overview
+
+ 2025 AssetRanger. All rights reserved.
