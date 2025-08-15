@@ -1,7 +1,3 @@
----
-title: Technical Architecture
----
-
 # AssetRanger: Technical Architecture
 
 ## The Vision Behind AssetRanger
@@ -16,7 +12,7 @@ I built AssetRanger with these key capabilities in mind:
 - **Barcode Integration:** Quick scanning for instant item identification  
 - **Multi-Item Workflows:** Batch processing for check-outs and check-ins  
 - **Approval System:** Structured request and approval process  
-- **Location Tracking:** Geographic tagging of asset locations  
+- **Location Tracking:** Item-level geographic tagging with dual-purpose location data (scan location and storage location)  
 - **Category Organization:** Flexible categorization of inventory items  
 - **Digital Signatures:** Secure verification of equipment transfers  
 
@@ -30,6 +26,7 @@ I structured AssetRanger with modularity as a core principle. By organizing the 
 - **Component Library:** I developed reusable UI components in `/src/components` that maintain consistent user experience throughout the app  
 - **Data Layer:** I centralized database operations in `/src/db` to create a clean separation between data and presentation  
 - **Custom Hooks:** I extracted shared logic into `/src/hooks` to promote code reuse and testing  
+- **Utility Functions:** I developed utilities like `getCurrentLocation()` to standardize location capture with permission handling  
 
 ### Technology Stack Selection
 
@@ -49,7 +46,12 @@ I designed AssetRanger's state management with a multi-layered approach:
 - **Global State:** Zustand manages app-wide data like counters and settings  
 - **Theme Context:** Dedicated context for appearance management  
 - **Local State:** UI-specific state contained within components  
-- **Persistent Storage:** Robust SQLite implementation for all inventory data  
+- **Persistent Storage:** Robust SQLite v3 implementation featuring:
+  - Item-level location tracking (scan location and storage location)
+  - Barcode-based audit trail with lifecycle event tracking
+  - Location history in passes table with temporal validation
+  - Separation of concerns between workflow operations (passes) and lifecycle events (item_events)
+  - Complete activity timeline combining both data sources  
 
 ### Navigation Implementation
 
@@ -64,11 +66,15 @@ My navigation architecture focuses on user-friendly workflows:
 
 I structured AssetRanger primarily as an offline-first application:
 
-- Comprehensive SQLite schema for all inventory data  
-- Import/export functionality for data migration  
-- PDF generation for documentation and reporting  
-- Integration of location services for geographic asset tracking  
-- Sharing capabilities for collaborative workflows  
+- **Comprehensive SQLite v3 Schema:** Complete inventory data with lifecycle tracking and audit trail
+- **Advanced Import/Export:** CSV/JSON formats with validation, duplicate detection, and issues reporting
+- **Data Quality Analysis:** Pre-import validation with comprehensive error reporting and UX protection
+- **PDF Generation:** Approval sheets with signature capture and detailed documentation
+- **Template Generation:** CSV templates for proper data formatting and user guidance
+- **Location Services:** Optional GPS tracking with graceful permission handling and dual workflow support
+- **Round-trip Compatibility:** Perfect data integrity across export/import cycles
+- **Activity Log Export:** Complete audit trail export for compliance and analysis
+- **Collaborative Features:** File sharing, email integration, and approval workflows  
 
 ### Asset Management Approach
 
@@ -92,8 +98,8 @@ I designed AssetRanger to handle asynchronous workflows effectively:
 
 I carefully implemented permission handling for:
 
-- Camera access for barcode scanning  
-- Location services for asset tracking  
+- Camera access for barcode scanning workflow  
+- Optional location services for asset tracking with manual selection workflow as fallback  
 - Storage access for document operations  
 - Notification permissions for alerts and reminders  
 
@@ -138,7 +144,3 @@ To ensure a smooth user experience, I implemented:
 Through this architecture, I've created an inventory management solution that combines technical excellence with an intuitive user experience, making AssetRanger a powerful yet approachable tool for equipment tracking and management.
 
 © 2025 AssetRanger. All rights reserved.
-
----
-
-[Home](index.md) | [Screenshots](screenshots.md) | [Architecture](architecture.md) | [Privacy](privacy.md)
