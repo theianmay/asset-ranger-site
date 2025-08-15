@@ -2,6 +2,8 @@
 
 This repository hosts the official website for AssetRanger, a comprehensive mobile asset management application. The website provides detailed feature overviews, technical architecture documentation, and complete privacy policy information.
 
+(https://img.shields.io/badge/App_Store-0D96F6?style=flat&logo=app-store&logoColor=white)
+
 The site is publicly accessible at: https://theianmay.github.io/asset-ranger-site
 
 ## Repository Structure
